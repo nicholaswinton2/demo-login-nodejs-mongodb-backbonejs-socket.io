@@ -1,0 +1,54 @@
+#app {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+.tile {
+	background-color: #F2F2F2;
+	padding: 10px;
+	margin: 5px;
+	vertical-align: middle; 
+	text-align: left;
+}
+
+#menu ul {
+	margin: 0px;
+}
+
+#menu ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.title {
+	background-color: #FFFFFF;
+}
+
+.profile-location {
+	font-size: 10px;
+}
+
+.boxes{
+
+}
+
+.box {
+	background-color: #CCCCCC;
+	padding: 10px;
+	float: left;
+	width: 195px;
+	margin: 5px;
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+
+.box p {
+	text-align: justify;
+}
+
+.wrapper {
+	text-align: center;
+}

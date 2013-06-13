@@ -1,0 +1,12 @@
+extends layout
+
+block content
+
+	p Por favor aguarde um pouco...
+
+block scripts
+	script(type='text/javascript')
+		// Fecha o popup do login e recarrega a pagina pai, após efetuado com sucesso.
+		opener.location.href = '/';
+		close();
+		
